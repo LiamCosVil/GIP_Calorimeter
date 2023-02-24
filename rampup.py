@@ -8,6 +8,8 @@ ps.MODE("NORMAL")
 
 ps.OUT(1,1)
 
+#This rampup is the next generation
+
 for i in range(15):
     print(5+i/2)
     ps.Ecrire_tension(5+i/2,1)
